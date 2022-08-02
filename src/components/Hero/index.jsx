@@ -11,6 +11,7 @@ function Hero() {
         bg="#D7F5DC"
         w="100%"
         h="100vh"
+        position="relative"
       >
         <Flex direction="column" gap="10px">
           <Text
