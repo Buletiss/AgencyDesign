@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import { Box } from "@chakra-ui/react";
 import { Fonts } from "./components/Fonts";
 import { Footer } from "./components/Footer";
+import { WhatWeDo } from "./components/WhatWeDo";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Fonts />
       <NavBar />
       <Hero />
-      <Footer/>
+      <WhatWeDo/>
     </Box>
   );
 }
