@@ -75,6 +75,7 @@ export const WhatWeDo = () => {
             Learn More <ArrowForwardIcon />
           </Link>
         </Flex>
+
         <Flex
           flexDirection="column"
           gap="15px"
@@ -112,6 +113,7 @@ export const WhatWeDo = () => {
             Learn More <ArrowForwardIcon />
           </Link>
         </Flex>
+
         <Flex
           flexDirection="column"
           gap="15px"

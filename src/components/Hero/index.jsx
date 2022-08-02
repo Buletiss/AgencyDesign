@@ -9,20 +9,20 @@ import Trello from "../../assets/Trello-logo-blue 1.png";
 
 export const Hero = () => {
   return (
-    <Box h="100vh" w="100%" bg="#D7F5DC">
-      <Flex>
+    <Box h="100vh" w="100%" bg="#D7F5DC" pt="3rem">
+      <Flex justifyContent="space-around">
         <Flex
           flexDirection="column"
           gap="20px"
           ml="2rem"
           justifyContent="center"
-          alignItems="center"
         >
           <Text
             fontFamily="Poppins"
             fontSize="50px"
             fontWeight="700"
             lineHeight="65px"
+            // pt="3rem"
           >
             Increase Your Customers Loyalty and Satisfaction
           </Text>
@@ -49,7 +49,7 @@ export const Hero = () => {
           </Button>
         </Flex>
 
-        <Image src={Mulher} w="650px" h="564px" />
+        <Image src={Mulher} w="100%" maxW="650px" h="564px" />
       </Flex>
       <Flex
         width="100%"
@@ -57,7 +57,6 @@ export const Hero = () => {
         bg="#F8FFF9"
         justifyContent="space-around"
         alignItems="center"
-        mb="3rem"
       >
         <Image src={logos_google} w="80px" h="30px" />
         <Image src={logos_monday} w="80px" h="30px" />
