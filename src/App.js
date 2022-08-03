@@ -6,6 +6,7 @@ import { Fonts } from "./components/Fonts";
 import { Footer } from "./components/Footer";
 import { WhatWeDo } from "./components/WhatWeDo";
 import { Portfolio } from "./components/Portfolio";
+import { Infos } from "./components/Infos";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <NavBar />
             <Hero />
             <WhatWeDo />
+            <Infos />
             <Portfolio />
         </Box>
     );
