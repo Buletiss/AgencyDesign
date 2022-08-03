@@ -3,6 +3,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import Activity from "../../assets/Activity.png";
 import Heart from "../../assets/Heart.png";
 import Work from "../../assets/Work.png";
+import { Cards } from "../Cards";
 
 export const WhatWeDo = () => {
   return (
@@ -36,122 +37,7 @@ export const WhatWeDo = () => {
       >
         We provide the Perfect Solution to your business growth
       </Text>
-
-      <Flex>
-        <Flex
-          flexDirection="column"
-          gap="15px"
-          w="330px"
-          height="415px"
-          justifyContent="center"
-          alignItems="flex-start"
-          mr="45px"
-          mt="3rem"
-          ml="3rem"
-        >
-          <Image src={Activity} w="93px" h="93px" />
-          <Text
-            fontFamily="Poppins"
-            fontSize="24px"
-            fontWeight="600"
-            lineHeight="36px"
-          >
-            Grow Your Business
-          </Text>
-          <Text
-            fontFamily="Poppins"
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="25px"
-          >
-            We help identify the best ways to improve your business
-          </Text>
-          <Link
-            fontFamily="Poppins"
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="25px"
-          >
-            Learn More <ArrowForwardIcon />
-          </Link>
-        </Flex>
-
-        <Flex
-          flexDirection="column"
-          gap="15px"
-          w="330px"
-          height="415px"
-          justifyContent="center"
-          alignItems="flex-start"
-          mr="45px"
-          mt="3rem"
-          ml="3rem"
-        >
-          <Image src={Heart} w="93px" h="93px" />
-          <Text
-            fontFamily="Poppins"
-            fontSize="24px"
-            fontWeight="600"
-            lineHeight="36px"
-          >
-            Grow Your Business
-          </Text>
-          <Text
-            fontFamily="Poppins"
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="25px"
-          >
-            We help identify the best ways to improve your business
-          </Text>
-          <Link
-            fontFamily="Poppins"
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="25px"
-          >
-            Learn More <ArrowForwardIcon />
-          </Link>
-        </Flex>
-
-        <Flex
-          flexDirection="column"
-          gap="15px"
-          w="330px"
-          height="415px"
-          justifyContent="center"
-          alignItems="flex-start"
-          mr="45px"
-          mt="3rem"
-          ml="3rem"
-        >
-          <Image src={Work} w="93px" h="93px" />
-          <Text
-            fontFamily="Poppins"
-            fontSize="24px"
-            fontWeight="600"
-            lineHeight="36px"
-          >
-            Grow Your Business
-          </Text>
-          <Text
-            fontFamily="Poppins"
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="25px"
-          >
-            We help identify the best ways to improve your business
-          </Text>
-          <Link
-            fontFamily="Poppins"
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="25px"
-          >
-            Learn More <ArrowForwardIcon />
-          </Link>
-        </Flex>
-      </Flex>
+      <Cards/>
     </Flex>
   );
 };
