@@ -33,6 +33,8 @@ export const WhatWeDo = () => {
         lineHeight="30px"
         mt="3rem"
         ml="3rem"
+        maxW='500px'
+
       >
         We provide the Perfect Solution to your business growth
       </Text>
