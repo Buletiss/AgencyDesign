@@ -22,7 +22,6 @@ export const Hero = () => {
             fontSize="50px"
             fontWeight="700"
             lineHeight="65px"
-            // pt="3rem"
           >
             Increase Your Customers Loyalty and Satisfaction
           </Text>
