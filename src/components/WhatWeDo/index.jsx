@@ -8,7 +8,7 @@ import { Cards } from "../Cards";
 export const WhatWeDo = () => {
   return (
     <Flex
-      h="100vh"
+      h="800px"
       w="100%"
       display="flex"
       flexDirection="column"
