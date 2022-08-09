@@ -8,6 +8,7 @@ import { WhatWeDo } from "./components/WhatWeDo";
 import { Portfolio } from "./components/Portfolio";
 import { Infos } from "./components/Infos";
 import { Testimonials } from "./components/Testimonials";
+import { Subscribe } from "./components/Subscribe";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <Infos />
             <Portfolio />
             <Testimonials/>
+            <Subscribe/>
         </Box>
     );
 }
