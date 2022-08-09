@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 import { WhatWeDo } from "./components/WhatWeDo";
 import { Portfolio } from "./components/Portfolio";
 import { Infos } from "./components/Infos";
+import { Testimonials } from "./components/Testimonials";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <WhatWeDo />
             <Infos />
             <Portfolio />
+            <Testimonials/>
         </Box>
     );
 }
