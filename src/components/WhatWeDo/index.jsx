@@ -12,7 +12,7 @@ export const WhatWeDo = () => {
       w="100%"
       display="flex"
       flexDirection="column"
-      alignItems="flex-start"
+      alignItems="center"
     >
       <Heading
         as="h1"

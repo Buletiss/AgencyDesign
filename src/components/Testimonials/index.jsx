@@ -58,18 +58,31 @@ export const Testimonials = () => {
         See what our customer say about us
       </Text>
 
-      <Flex justifyContent="center">
+      <Flex justifyContent="center" gap="45px">
         {testimonial.map((card) => (
-          <Flex>
-            <Text>{card.note}</Text>
+          <Flex
+            boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+            w="470px"
+            flexDirection="column"
+            p="45px"
+            gap="5px"
+            borderRadius="20px"
+          >
+            <Text fontWeight="400" fontSize="18px" lineHeight="25px">
+              {card.note}
+            </Text>
 
-            <Flex>
+            <Flex gap="10px" alignItems="center">
               <Box>
-                <Text>{card.title}</Text>
-                <Text>{card.occupation}</Text>
+                <Text fontWeight="600" fontSize="20px" lineHeight="25px">
+                  {card.title}
+                </Text>
+                <Text fontWeight="400" fontSize="18px" lineHeight="25px">
+                  {card.occupation}
+                </Text>
               </Box>
 
-              <Image src={card.image} />
+              <Image src={card.image} maxW="60px" w="100%" h="60px" />
             </Flex>
           </Flex>
         ))}
