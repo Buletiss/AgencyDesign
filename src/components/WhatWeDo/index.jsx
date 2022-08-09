@@ -7,7 +7,13 @@ import { Cards } from "../Cards";
 
 export const WhatWeDo = () => {
   return (
-    <Flex h="800px" w="100%" display="flex" flexDirection="column">
+    <Flex
+      h="800px"
+      w="100%"
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+    >
       <Heading
         as="h1"
         fontFamily="Poppins"

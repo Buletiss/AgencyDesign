@@ -29,7 +29,13 @@ export const Infos = () => {
   ];
 
   return (
-    <Flex w="100%" h="150px" justifyContent="center" color="#FAFFFB">
+    <Flex
+      w="100%"
+      h="150px"
+      justifyContent="center"
+      color="#FAFFFB"
+      alignItems="center"
+    >
       <Stack direction="row" spacing="85px">
         {cardInfo.map((card) => (
           <VStack>
