@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
+import {  Button, Flex, Input, Text } from "@chakra-ui/react";
 
 export const Subscribe = () => {
   return (

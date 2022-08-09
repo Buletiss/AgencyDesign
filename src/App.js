@@ -21,6 +21,7 @@ function App() {
             <Portfolio />
             <Testimonials/>
             <Subscribe/>
+            <Footer/>
         </Box>
     );
 }
