@@ -25,7 +25,7 @@ export const Cards = () => {
   ];
 
   return (
-    <Flex>
+    <Flex justifyContent="center">
       {cards.map((card) => (
         <Stack p="4rem">
           <Image src={card.image} maxWidth="93px" w="100%" h="93px" />

@@ -9,7 +9,7 @@ import Trello from "../../assets/Trello-logo-blue 1.png";
 
 export const Hero = () => {
   return (
-    <Box h="100vh" w="100%" bg="#D7F5DC" pt="3rem">
+    <Box h="850px" w="100%" bg="#D7F5DC" pt="3rem">
       <Flex justifyContent="space-around">
         <Flex
           flexDirection="column"

@@ -7,13 +7,7 @@ import { Cards } from "../Cards";
 
 export const WhatWeDo = () => {
   return (
-    <Flex
-      h="800px"
-      w="100%"
-      display="flex"
-      flexDirection="column"
-      alignItems="center"
-    >
+    <Flex h="800px" w="100%" display="flex" flexDirection="column">
       <Heading
         as="h1"
         fontFamily="Poppins"
@@ -34,12 +28,11 @@ export const WhatWeDo = () => {
         lineHeight="30px"
         mt="3rem"
         ml="3rem"
-        maxW='500px'
-
+        maxW="500px"
       >
         We provide the Perfect Solution to your business growth
       </Text>
-      <Cards/>
+      <Cards />
     </Flex>
   );
 };
