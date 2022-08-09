@@ -9,34 +9,32 @@ export const Portfolio = () => {
     <Box>
       <Flex flexDirection="column">
         <Text
+          as="h1"
+          fontFamily="Poppins"
+          fontSize="20px"
+          fontWeight="500"
+          lineHeight="30px"
           color="#20B15A"
-          mr="45px"
           mt="3rem"
           ml="3rem"
-          maxW="200px"
-          fontWeight="600"
-          fontSize="20px"
         >
           OUR PORTFOLIO
         </Text>
         <Text
-          mr="45px"
+          as="h2"
+          fontFamily="Poppins"
+          fontSize="30px"
+          fontWeight="600"
+          lineHeight="30px"
           mt="3rem"
           ml="3rem"
-          maxW="450px"
-          fontWeight="600"
-          fontSize="30px"
+          maxW="500px"
         >
           We provide the Perfect Solution to your business growth
         </Text>
-        <Flex justify="center">
+        <Flex justify="center" p="30px" alignItems="center">
           <SimpleGrid columns={2} spacing={10}>
-            <Flex
-              flexDirection="column"
-              justifyContent="center"
-              gap="20px"
-              p="10px"
-            >
+            <Flex flexDirection="column" justifyContent="center" gap="20px">
               <Image src={Portfolio1} maxW="500px" w="100%" />
               <Text fontFamily="Poppins" fontWeight="600" lineHeight="34px">
                 Digital Marketing Agency Website
@@ -52,12 +50,7 @@ export const Portfolio = () => {
                 Accross all platforms. This is a website rebrand
               </Text>
             </Flex>
-            <Flex
-              flexDirection="column"
-              justifyContent="center"
-              gap="20px"
-              p="10px"
-            >
+            <Flex flexDirection="column" justifyContent="center" gap="20px">
               <Image src={Portfolio2} maxW="500px" w="100%" />
               <Text fontFamily="Poppins" fontWeight="600" lineHeight="34px">
                 Digital Marketing Agency Website
@@ -68,12 +61,7 @@ export const Portfolio = () => {
                 Accross all platforms. This is a website rebrand
               </Text>
             </Flex>
-            <Flex
-              flexDirection="column"
-              justifyContent="center"
-              gap="20px"
-              p="10px"
-            >
+            <Flex flexDirection="column" justifyContent="center" gap="20px">
               <Image src={Portfolio3} maxW="500px" w="100%" />
               <Text fontFamily="Poppins" fontWeight="600" lineHeight="34px">
                 Digital Marketing Agency Website
@@ -84,12 +72,7 @@ export const Portfolio = () => {
                 Accross all platforms. This is a website rebrand
               </Text>
             </Flex>
-            <Flex
-              flexDirection="column"
-              justifyContent="center"
-              gap="20px"
-              p="10px"
-            >
+            <Flex flexDirection="column" justifyContent="center" gap="20px">
               <Image src={Portfolio4} maxW="500px" w="100%" />
               <Text fontFamily="Poppins" fontWeight="600" lineHeight="34px">
                 Digital Marketing Agency Website
