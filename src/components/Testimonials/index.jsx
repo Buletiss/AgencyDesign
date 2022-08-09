@@ -58,7 +58,7 @@ export const Testimonials = () => {
         See what our customer say about us
       </Text>
 
-      <Flex justifyContent="center" gap="45px">
+      <Flex justifyContent="center" gap="45px" p="15px">
         {testimonial.map((card) => (
           <Flex
             boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
@@ -73,6 +73,7 @@ export const Testimonials = () => {
             </Text>
 
             <Flex gap="10px" alignItems="center">
+              <Image src={card.image} maxW="60px" w="100%" h="60px" />
               <Box>
                 <Text fontWeight="600" fontSize="20px" lineHeight="25px">
                   {card.title}
@@ -82,7 +83,6 @@ export const Testimonials = () => {
                 </Text>
               </Box>
 
-              <Image src={card.image} maxW="60px" w="100%" h="60px" />
             </Flex>
           </Flex>
         ))}
