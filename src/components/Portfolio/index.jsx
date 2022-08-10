@@ -1,8 +1,25 @@
-import { Box, Flex, Image, Text, SimpleGrid } from "@chakra-ui/react";
+import {
+    Box,
+    Flex,
+    Image,
+    Text,
+    SimpleGrid,
+    extendTheme,
+} from "@chakra-ui/react";
 import Portfolio1 from "../../assets/portfolio_1.png";
 import Portfolio2 from "../../assets/portfolio_2.png";
 import Portfolio3 from "../../assets/portfolio_3.png";
 import Portfolio4 from "../../assets/portfolio_4.png";
+
+const breakpoints = {
+    sm: "320px",
+    md: "768px",
+    lg: "960px",
+    xl: "1200px",
+    "2xl": "1536px",
+};
+
+const theme = extendTheme({ breakpoints });
 
 export const Portfolio = () => {
     return (
@@ -34,7 +51,11 @@ export const Portfolio = () => {
                     We provide the Perfect Solution to your business growth
                 </Text>
                 <Flex justify="center" p="30px" alignItems="center">
-                    <SimpleGrid columns={2} spacing={10} alignItems="center">
+                    <SimpleGrid
+                        columns={{ base: "1", md: "2" }}
+                        spacing={10}
+                        alignItems="center"
+                    >
                         <Flex
                             flexDirection="column"
                             justifyContent="center"

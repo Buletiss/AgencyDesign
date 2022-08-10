@@ -8,63 +8,63 @@ import Slack from "../../assets/Slack.png";
 import Trello from "../../assets/Trello-logo-blue 1.png";
 
 export const Hero = () => {
-  return (
-    <Box h="850px" w="100%" bg="#D7F5DC" pt="3rem">
-      <Flex justifyContent="space-around">
-        <Flex
-          flexDirection="column"
-          gap="20px"
-          ml="2rem"
-          justifyContent="center"
-        >
-          <Text
-            fontFamily="Poppins"
-            fontSize="50px"
-            fontWeight="700"
-            lineHeight="65px"
-          >
-            Increase Your Customers Loyalty and Satisfaction
-          </Text>
-          <Text
-            fontFamily="Poppins"
-            fontSize="20px"
-            fontWeight="500"
-            lineHeight="27px"
-          >
-            We help businesses like yours earn more customers, standout from
-            competitors, make more money
-          </Text>
-          <Button
-            fontFamily="Poppins"
-            fontSize="20px"
-            fontWeight="500"
-            lineHeight="30px"
-            color="#fff"
-            bg="#20B15A"
-            w="175px"
-            h="70px"
-          >
-            Get Started
-          </Button>
-        </Flex>
+    return (
+        <Box h="850px" w="100%" bg="#D7F5DC" pt="3rem">
+            <Flex justifyContent="space-around">
+                <Flex
+                    flexDirection="column"
+                    gap="20px"
+                    ml="2rem"
+                    justifyContent="center"
+                >
+                    <Text
+                        fontFamily="Poppins"
+                        fontSize="50px"
+                        fontWeight="700"
+                        lineHeight="65px"
+                    >
+                        Increase Your Customers Loyalty and Satisfaction
+                    </Text>
+                    <Text
+                        fontFamily="Poppins"
+                        fontSize="20px"
+                        fontWeight="500"
+                        lineHeight="27px"
+                    >
+                        We help businesses like yours earn more customers,
+                        standout from competitors, make more money
+                    </Text>
+                    <Button
+                        fontFamily="Poppins"
+                        fontSize="20px"
+                        fontWeight="500"
+                        lineHeight="30px"
+                        color="#fff"
+                        bg="#20B15A"
+                        w="175px"
+                        h="70px"
+                    >
+                        Get Started
+                    </Button>
+                </Flex>
 
-        <Image src={Mulher} w="100%" maxW="650px" h="564px" />
-      </Flex>
-      <Flex
-        width="100%"
-        h="120px"
-        bg="#F8FFF9"
-        justifyContent="space-around"
-        alignItems="center"
-      >
-        <Image src={logos_google} w="80px" h="30px" />
-        <Image src={logos_monday} w="80px" h="30px" />
-        <Image src={Notion} w="80px" h="30px" />
-        <Image src={Slack} w="80px" h="30px" />
-        <Image src={Trello} w="80px" h="30px" />
-      </Flex>
-    </Box>
-  );
+                <Image src={Mulher} w="100%" maxW="650px" h="564px" />
+            </Flex>
+            <Flex
+                width="100%"
+                h="120px"
+                bg="#F8FFF9"
+                justifyContent="space-around"
+                alignItems="center"
+            >
+                <Image src={logos_google} w="80px" h="30px" />
+                <Image src={logos_monday} w="80px" h="30px" />
+                <Image src={Notion} w="80px" h="30px" />
+                <Image src={Slack} w="80px" h="30px" />
+                <Image src={Trello} w="80px" h="30px" />
+            </Flex>
+        </Box>
+    );
 };
 
 export default Hero;
